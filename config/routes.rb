@@ -1,13 +1,10 @@
 Rails.application.routes.draw do
-  get 'pages/process'
+  root 'pages#index'
 
-  get 'pages/index'
-
-  get 'pages/about'
-
-  get 'pages/help'
-
-  get 'pages/wiki'
+  get 'process' => 'pages#process'
+  get 'about'   => 'pages#about'
+  get 'help'    => 'pages#help'
+  get 'wiki'    => 'pages#wiki'
 
   resources :adinkra_symbols
   resources :adinkras
