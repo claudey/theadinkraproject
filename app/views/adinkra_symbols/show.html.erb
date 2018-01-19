@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @adinkra_symbol.name %>
+</p>
+
+<p>
+  <strong>Icon png:</strong>
+  <%= @adinkra_symbol.icon_png %>
+</p>
+
+<p>
+  <strong>Icon svg:</strong>
+  <%= @adinkra_symbol.icon_svg %>
+</p>
+
+<p>
+  <strong>Translation:</strong>
+  <%= @adinkra_symbol.translation %>
+</p>
+
+<p>
+  <strong>Meaning:</strong>
+  <%= @adinkra_symbol.meaning %>
+</p>
+
+<p>
+  <strong>Origin:</strong>
+  <%= @adinkra_symbol.origin %>
+</p>
+
+<p>
+  <strong>Proverb:</strong>
+  <%= @adinkra_symbol.proverb %>
+</p>
+
+<p>
+  <strong>Theme:</strong>
+  <%= @adinkra_symbol.theme %>
+</p>
+
+<%= link_to 'Edit', edit_adinkra_symbol_path(@adinkra_symbol) %> |
+<%= link_to 'Back', adinkra_symbols_path %>

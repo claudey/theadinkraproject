@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Adinkras</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Icon png</th>
+      <th>Icon svg</th>
+      <th>Translation</th>
+      <th>Meaning</th>
+      <th>Origin</th>
+      <th>Proverb</th>
+      <th>Theme</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @adinkras.each do |adinkra| %>
+      <tr>
+        <td><%= adinkra.name %></td>
+        <td><%= adinkra.icon_png %></td>
+        <td><%= adinkra.icon_svg %></td>
+        <td><%= adinkra.translation %></td>
+        <td><%= adinkra.meaning %></td>
+        <td><%= adinkra.origin %></td>
+        <td><%= adinkra.proverb %></td>
+        <td><%= adinkra.theme %></td>
+        <td><%= link_to 'Show', adinkra %></td>
+        <td><%= link_to 'Edit', edit_adinkra_path(adinkra) %></td>
+        <td><%= link_to 'Destroy', adinkra, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Adinkra', new_adinkra_path %>

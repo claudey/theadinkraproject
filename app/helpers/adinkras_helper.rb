@@ -1,0 +1,2 @@
+module AdinkrasHelper
+end

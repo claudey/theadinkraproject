@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  icon_png: MyString
+  icon_svg: MyString
+  translation: MyString
+  meaning: MyString
+  origin: MyString
+  proverb: MyString
+  theme: MyString
+
+two:
+  name: MyString
+  icon_png: MyString
+  icon_svg: MyString
+  translation: MyString
+  meaning: MyString
+  origin: MyString
+  proverb: MyString
+  theme: MyString

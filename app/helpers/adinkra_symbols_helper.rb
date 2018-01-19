@@ -1,0 +1,2 @@
+module AdinkraSymbolsHelper
+end

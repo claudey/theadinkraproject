@@ -1,0 +1,2 @@
+class AdinkraSymbol < ApplicationRecord
+end
