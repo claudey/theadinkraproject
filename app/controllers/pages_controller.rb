@@ -1,13 +1,4 @@
 class PagesController < ApplicationController
-  def index
-  end
-
-  def about
-  end
-
-  def help
-  end
-
-  def wiki
+  def process
   end
 end

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/process'
+
   get 'pages/index'
 
   get 'pages/about'
