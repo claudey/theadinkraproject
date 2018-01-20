@@ -11,6 +11,4 @@ class PagesController < ApplicationController
   def wiki
   end
   
-  def process
-  end
 end
