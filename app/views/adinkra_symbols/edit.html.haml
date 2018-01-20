@@ -1,6 +1,6 @@
-<h1>Editing Adinkra Symbol</h1>
+%h1 Editing Adinkra Symbol
 
-<%= render 'form', adinkra_symbol: @adinkra_symbol %>
+= render :partial => 'form', :locals => { :adinkra_symbol => @adinkra_symbol }
 
-<%= link_to 'Show', @adinkra_symbol %> |
-<%= link_to 'Back', adinkra_symbols_path %>
+= link_to('Show', @adinkra_symbol) |
+= link_to('Back', adinkra_symbols_path)

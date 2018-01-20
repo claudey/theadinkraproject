@@ -1,44 +1,37 @@
-<p id="notice"><%= notice %></p>
+%p{:id=>"notice"}
+  = notice
 
-<p>
-  <strong>Name:</strong>
-  <%= @adinkra_symbol.name %>
-</p>
+%p
+  %strong Name:
+  = @adinkra_symbol.name
 
-<p>
-  <strong>Icon png:</strong>
-  <%= @adinkra_symbol.icon_png %>
-</p>
+%p
+  %strong Icon png:
+  = @adinkra_symbol.icon_png
 
-<p>
-  <strong>Icon svg:</strong>
-  <%= @adinkra_symbol.icon_svg %>
-</p>
+%p
+  %strong Icon svg:
+  = @adinkra_symbol.icon_svg
 
-<p>
-  <strong>Translation:</strong>
-  <%= @adinkra_symbol.translation %>
-</p>
+%p
+  %strong Translation:
+  = @adinkra_symbol.translation
 
-<p>
-  <strong>Meaning:</strong>
-  <%= @adinkra_symbol.meaning %>
-</p>
+%p
+  %strong Meaning:
+  = @adinkra_symbol.meaning
 
-<p>
-  <strong>Origin:</strong>
-  <%= @adinkra_symbol.origin %>
-</p>
+%p
+  %strong Origin:
+  = @adinkra_symbol.origin
 
-<p>
-  <strong>Proverb:</strong>
-  <%= @adinkra_symbol.proverb %>
-</p>
+%p
+  %strong Proverb:
+  = @adinkra_symbol.proverb
 
-<p>
-  <strong>Theme:</strong>
-  <%= @adinkra_symbol.theme %>
-</p>
+%p
+  %strong Theme:
+  = @adinkra_symbol.theme
 
-<%= link_to 'Edit', edit_adinkra_symbol_path(@adinkra_symbol) %> |
-<%= link_to 'Back', adinkra_symbols_path %>
+= link_to('Edit', edit_adinkra_symbol_path(@adinkra_symbol))
+= link_to('Back', adinkra_symbols_path)
