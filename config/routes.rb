@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pans
   root 'pages#index'
 
   get 'process' => 'pages#process'
