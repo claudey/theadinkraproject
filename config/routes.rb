@@ -8,9 +8,6 @@ Rails.application.routes.draw do
   get 'wiki'    => 'pages#wiki'
 
   resources :adinkra_symbols
-  resources :adinkras
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
-  root 'application#hello'
   
+  root 'application#hello'
 end
