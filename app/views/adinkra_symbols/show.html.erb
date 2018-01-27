@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<%= div_for @adinkra_symbols do |f| %>
+<%# <%= for @adinkra_symbols do |adinkra_symbol| %> %>
   <p>
     <strong>Name:</strong>
     <%= @adinkra_symbol.name %>
@@ -42,7 +42,7 @@
   </p>
 
   <%= link_to 'Edit', edit_adinkra_symbol_path(@adinkra_symbol) %>
-<% end %>
+<%# <% end %> %>
 
 
 <%= link_to 'Back', adinkra_symbols_path %>
