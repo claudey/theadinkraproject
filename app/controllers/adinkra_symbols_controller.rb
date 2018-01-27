@@ -10,6 +10,8 @@ class AdinkraSymbolsController < ApplicationController
   # GET /adinkra_symbols/1
   # GET /adinkra_symbols/1.json
   def show
+    # @adinkra_symbols = AdinkraSymbol.all.order("created_at DESC")
+    @adinkra_symbols = AdinkraSymbol.find(params[:id])
   end
 
   # GET /adinkra_symbols/new
