@@ -1,0 +1,47 @@
+= form_with(model: adinkra_symbol, local: true) do |form|
+  - if adinkra_symbol.errors.any?
+    %div{:id => "error_explanation"}
+      %h2
+        = pluralize(adinkra_symbol.errors.count, "error")
+        "prohibited this adinkra_symbol from being saved:"
+
+      %ul
+      = adinkra_symbol.errors.full_messages.each do |message|
+        %li
+          = message
+
+  %div{:class => "field"}
+    = form.label :name
+    = form.text_field :name, id: :adinkra_symbol_name
+
+  %div{:class => "field"}
+    = form.label :icon_png
+    = form.text_field :icon_png, id: :adinkra_symbol_icon_png
+
+  %div{:class => "field"}
+    = form.label :icon_svg
+    = form.text_field :icon_svg, id: :adinkra_symbol_icon_svg
+
+  %div{:class => "field"}
+    = form.label :translation
+    = form.text_field :translation, id: :adinkra_symbol_translation
+
+  %div{:class => "field"}
+    = form.label :meaning
+    = form.text_field :meaning, id: :adinkra_symbol_meaning
+
+  %div{:class => "field"}
+    = form.label :origin
+    = form.text_field :origin, id: :adinkra_symbol_origin
+
+  %div{:class => "field"}
+    = form.label :proverb
+    = form.text_field :proverb, id: :adinkra_symbol_proverb
+
+  %div{:class => "field"}
+    = form.label :theme
+    = form.text_field :theme, id: :adinkra_symbol_theme
+
+  %div{:class => "actions"}
+    = form.submit
+  
