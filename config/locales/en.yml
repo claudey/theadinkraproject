@@ -31,3 +31,6 @@
 
 en:
   hello: "Hello world"
+  app:
+    name: "The Adinkra Project"
+    author: "Claude Ayitey"

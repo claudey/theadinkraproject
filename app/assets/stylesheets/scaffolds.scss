@@ -91,3 +91,13 @@ div {
 label {
     display: block;
 }
+
+footer {
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 50px;
+    z-index: -3;
+    background-color: #333333;
+}
