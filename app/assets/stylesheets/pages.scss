@@ -1,114 +1,6 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-// html,
-// body,
-// div,
-// span,
-// applet,
-// object,
-// iframe,
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6,
-// p,
-// blockquote,
-// pre,
-// a,
-// abbr,
-// acronym,
-// address,
-// big,
-// cite,
-// code,
-// del,
-// dfn,
-// em,
-// img,
-// ins,
-// kbd,
-// q,
-// s,
-// samp,
-// small,
-// strike,
-// strong,
-// sub,
-// sup,
-// tt,
-// var,
-// b,
-// u,
-// i,
-// center,
-// dl,
-// dt,
-// dd,
-// ol,
-// ul,
-// li,
-// fieldset,
-// form,
-// label,
-// legend,
-// table,
-// caption,
-// tbody,
-// tfoot,
-// thead,
-// tr,
-// th,
-// td,
-// article,
-// aside,
-// canvas,
-// details,
-// embed,
-// figure,
-// figcaption,
-// footer,
-// header,
-// hgroup,
-// menu,
-// nav,
-// output,
-// ruby,
-// section,
-// summary,
-// time,
-// mark,
-// audio,
-// video {
-//     margin: 0;
-//     padding: 0;
-//     border: 0;
-//     font-size: 100%;
-//     font: inherit;
-//     vertical-align: baseline;
-// }
-// /* HTML5 display-role reset for older browsers */
-// article,
-// aside,
-// details,
-// figcaption,
-// figure,
-// footer,
-// header,
-// hgroup,
-// menu,
-// nav,
-// section {
-//     display: block;
-// }
 .body__wrapper {
     margin-bottom: 70px;
 }
@@ -121,7 +13,29 @@
 
 .home__hero {
     display: inline-block;
+    position: relative;
+    width: 100%;
+    top: 20vh;
     min-height: 60vh;
+}
+
+.home__hero--text {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+.home__hero--title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    color: #031B4E;
+}
+
+.home__hero--welcome {
+    font-family: "SanFranciscoText-Regular";
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #151377;
 }
 
 .home__about {
