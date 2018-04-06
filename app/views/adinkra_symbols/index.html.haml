@@ -8,17 +8,15 @@
 
 .container--960
   - @adinkra_symbols.each do |adinkra_symbol|
-    %a{:href => adinkra_symbol, :class => "adinkra__card"}
+    %a{:href => url_for(adinkra_symbol), :class => "adinkra__card"}
       %div{:class => "adinkra__image--holder"}
         %img{:src => adinkra_symbol.icon_png, "class" => "adinkra__image"}
       %div{:class => "adinkra__title--holder"}
         %p{:class => "adinkra__title"}
           = adinkra_symbol.name
-    %td
-      = link_to('Show', adinkra_symbol)
+      
     %td
       = link_to('Edit', edit_adinkra_symbol_path(adinkra_symbol))
-                  
 
   -# = link_to('Destroy', adinkra_symbol, method: :delete, data: { confirm: 'Are you sure?' })
   -# = link_to('New Adinkra Symbol', new_adinkra_symbol_path)
