@@ -4,7 +4,8 @@
 %p{:id => "notice"}
   = notice
 
-%h1 Adinkra Symbols
+%h1{:class => "text-center"}
+  Adinkra Symbols
 
 .container--960
   - @adinkra_symbols.each do |adinkra_symbol|
@@ -15,8 +16,8 @@
         %p{:class => "adinkra__title"}
           = adinkra_symbol.name
       
-    %td
-      = link_to('Edit', edit_adinkra_symbol_path(adinkra_symbol))
+    -# %td
+      -# = link_to('Edit', edit_adinkra_symbol_path(adinkra_symbol))
 
   -# = link_to('Destroy', adinkra_symbol, method: :delete, data: { confirm: 'Are you sure?' })
   -# = link_to('New Adinkra Symbol', new_adinkra_symbol_path)
