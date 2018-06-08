@@ -4,9 +4,27 @@
 footer {
     color: white;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    padding: 50px;
-    z-index: -3;
-    background-color: #333333;
+    background-color: #193266;
+}
+
+.backstory {
+    background: #D8D8D8;
+    padding: 30px;
+    width: max-content;
+    margin: 0 0 0 50px;
+    top: -30px;
+    position: relative;
+}
+
+.blurb {
+    margin-top: 100px;
+    & p {
+        width: 50%;
+    }
+}
+
+.authorship {
+    border-top: white 1px solid;
+    min-height: 50px;
+    padding-bottom: 2px;
 }

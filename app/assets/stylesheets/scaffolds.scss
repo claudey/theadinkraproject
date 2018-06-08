@@ -3,7 +3,18 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans', arial, helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Avenir', 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bariol', Verdana, Georgia, Tahoma, sans-serif;
 }
 
 .container--960 {
@@ -14,15 +25,6 @@ body {
 .container--1200 {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-p,
-ol,
-ul,
-td {
-    font-family: 'Noto Sans', arial, helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
 }
 
 a {
@@ -38,4 +40,8 @@ a {
 
 .text-center {
     text-align: center;
+}
+
+.text--align__right {
+    text-align: right;
 }

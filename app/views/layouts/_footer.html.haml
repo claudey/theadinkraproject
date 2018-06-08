@@ -1,6 +1,11 @@
 %footer
-    %p.backstory
+    .backstory
         Loving the project? Read the
         = link_to('back story', "#")
     .blurb
-    = "&copy; #{Date.today.year} #{t('app.author')}.".html_safe
+        .container--1200
+            %p The Adinkra Project provides a complete catalouge of Adinkra symbols, presented in a consistent and well-designed layout, for educational, aesthetic, and cultural usefulness.
+    -# = "&copy; #{Date.today.year} #{t('app.author')}.".html_safe
+    .authorship
+        .container--1200
+            %p.text--align__right Built with love in Accra
