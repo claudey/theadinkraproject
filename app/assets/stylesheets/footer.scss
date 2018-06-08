@@ -1,0 +1,12 @@
+// Place all the styles related to the AdinkraSymbols controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+footer {
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 50px;
+    z-index: -3;
+    background-color: #333333;
+}

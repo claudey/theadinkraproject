@@ -1,8 +1,23 @@
 - content_for :title do
   = "#{@adinkra_symbol.name} | #{t('app.name')}"
 
-%p{:id => "notice"}
-  = notice
+
+%section.bio
+  .bio--icon
+  .bio--data
+    .bio--data__name
+    .bio--data__actions
+      .bio--data__actions-download
+      .bio--data__actions-share
+
+%section.translation
+
+%section.meaning
+
+%section.themes
+
+%section.download
+
 
 %p
   %strong Name:
