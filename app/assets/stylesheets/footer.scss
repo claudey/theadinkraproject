@@ -4,7 +4,8 @@
 footer {
     color: white;
     width: 100%;
-    background-color: #193266;
+    // background-color: ;
+    background: #193266 url(freedom.png) no-repeat 95% calc(100% - 58px);
 }
 
 .backstory {
@@ -23,8 +24,34 @@ footer {
     }
 }
 
+.footer--container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .authorship {
-    border-top: white 1px solid;
+    border-top: #D6D7D9 5px solid;
     min-height: 50px;
     padding-bottom: 2px;
+}
+
+.author--container {
+    width: 90.5%;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    footer {
+        background-position: center calc(100% - 58px);
+    }
+    .blurb {
+        margin: 50px 0 200px;
+        & p {
+            width: 100%;
+        }
+    }
+    .author--container {
+        width: max-content;
+        text-align: center;
+    }
 }
