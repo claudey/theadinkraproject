@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :pans
   root 'pages#index'
+  resources :adinkra_symbols, :path => "symbols"
 
   get 'process'   => 'pages#process'
   get 'about'     => 'pages#about'
@@ -8,6 +8,5 @@ Rails.application.routes.draw do
   get 'wiki'      => 'pages#wiki'
   get 'adinkra'   => 'adinkra_symbols#index'
 
-  resources :adinkra_symbols
 
 end

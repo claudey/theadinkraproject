@@ -5,15 +5,19 @@
     background: rgba(235, 234, 240, 0.50);
 }
 
+.adinkra__wrapper {
+    padding: 0 2% 100px;
+}
+
 .adinkra__card {
     display: inline-block;
     background: #fff;
     border: 1px solid #E6E4EA;
     border-radius: 5px;
-    width: 250px;
-    height: 280px;
-    margin: 32px;
-    transition: all 0.25s;
+    width: 22%;
+    height: 275px;
+    margin-bottom: 1%;
+    transition: all 0.15s;
     &:hover {
         background: #fff;
         border: 1px solid transparent;
@@ -21,20 +25,59 @@
     }
 }
 
+@media (max-width: 480px) {
+    .adinkra__card {
+        width: 47%;
+        height: 275px;
+        margin: 1.2% 2% 30px;
+    }
+}
+
+@media (max-width: 960px) {
+    .adinkra__card {
+        width: 22.4%;
+        height: 30vw;
+        max-height: 270px;
+        margin: 0.9%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .adinkra__card {
+        width: 30%;
+        height: 275px;
+        margin: 1.2%;
+    }
+}
+
+@media (max-width: 568px) {
+    .adinkra__card {
+        width: 45%;
+        height: 305px;
+        margin: 2%;
+    }
+}
+
 .adinkra__image--holder {
-    padding: 14%;
+    padding: 10% 10% 7.5%;
 }
 
 .adinkra__image {
     width: 100%;
 }
 
-.adinkra__title--holder {}
+.adinkra__title--holder {
+    // display: inline-block;
+}
 
 .adinkra__title {
-    font-size: 1.25rem;
-    text-align: center;
-    text-transform: none;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 5px;
 }
 
 .bio {}

@@ -7,7 +7,7 @@
 %h1{:class => "text-center"}
   Adinkra Symbols
 
-.container--960
+.adinkra__wrapper.container--960
   - @adinkra_symbols.each do |adinkra_symbol|
     %a{:href => url_for(adinkra_symbol), :class => "adinkra__card"}
       %div{:class => "adinkra__image--holder"}
