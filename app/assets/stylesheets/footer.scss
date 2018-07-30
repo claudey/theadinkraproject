@@ -4,7 +4,6 @@
 footer {
     color: white;
     width: 100%;
-    // background-color: ;
     background: #193266 url(freedom.png) no-repeat 95% calc(100% - 58px);
 }
 
@@ -38,6 +37,11 @@ footer {
 .author--container {
     width: 90.5%;
     margin: 0 auto;
+}
+
+.author--text {
+    margin: 0.9em 0;
+    font-size: 16px;
 }
 
 @media (max-width: 480px) {

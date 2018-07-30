@@ -1,5 +1,25 @@
-.main__nav {
-    background: #151377;
+nav {
+    background: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
-    padding: 10px;
+    height: 55px;
+}
+
+.main__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.main__nav--logo {
+    display: flex;
+    padding-top: 12.5px;
+}
+
+.main__nav--links {
+    display: flex;
+}
+
+.main__nav--item {
+    margin: 10px 5px;
+    padding: 2.5px;
 }
