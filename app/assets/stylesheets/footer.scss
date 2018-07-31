@@ -8,12 +8,19 @@ footer {
 }
 
 .backstory {
+    color: #193266;
     background: #D8D8D8;
     padding: 30px;
     width: max-content;
     margin: 0 0 0 50px;
     top: -30px;
     position: relative;
+}
+
+@media( max-width: 450px) {
+    .backstory {
+        margin: 0;
+    }
 }
 
 .blurb {
