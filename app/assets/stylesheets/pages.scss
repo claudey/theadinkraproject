@@ -12,7 +12,7 @@ main {
 }
 
 .home__hero {
-    background: #fff url(/images/hero-bg.png);
+    background: #fff url(http://cdn.interacht.com/adinkraproject/hero-bg.png);
     background-repeat: repeat;
     display: inline-block;
     position: relative;
@@ -53,7 +53,7 @@ main {
 
 .home__content {
     float: left;
-    background: url(/images/AdinkraCalabashStamps.jpg);
+    background: url(http://cdn.interacht.com/adinkraproject/adinkra-calabash-stamps.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -61,7 +61,7 @@ main {
 .home__content--text {
     max-width: 35%;
     float: left;
-    background: #EBEAF0 url(/images/quote.svg);
+    background: #EBEAF0 url(http://cdn.interacht.com/adinkraproject/quote.svg);
     background-repeat: no-repeat;
     padding: 1.5em 60px 0 0;
 }
