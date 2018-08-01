@@ -82,7 +82,26 @@ main {
     padding: 0 5px;
 }
 
-.bio {}
+.bio {
+    display: flex;
+    padding-top: 40px;
+}
+
+.bio--icon {
+    float: left;
+    width: auto;
+    height: 500px;
+}
+
+.bio--data {
+    margin-left: 40px;
+}
+
+.bio--data__name {
+    font-size: 3em;
+    line-height: 1.2;
+    font-weight: 400;
+}
 
 .translation {}
 

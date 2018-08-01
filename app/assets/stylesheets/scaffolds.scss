@@ -16,6 +16,7 @@ h5,
 h6 {
     font-family: 'Bariol', 'Gill Sans', 'Century Gothic', Georgia, serif;
     color: #193266;
+    font-weight: 100;
 }
 
 h1 {
@@ -40,8 +41,11 @@ a {
     }
     &:hover {
         color: rgb(47, 35, 224);
-        // background-color: #000;
     }
+}
+
+.adinkra--symbol__name {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica", "Lato", 'Segoe UI', sans-serif;
 }
 
 .text-center {

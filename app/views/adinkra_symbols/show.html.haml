@@ -1,52 +1,33 @@
 - content_for :title do
   = "#{@adinkra_symbol.name} | #{t('app.name')}"
 
-%section.bio
-  .bio--icon
-  .bio--data
-    .bio--data__name
-    .bio--data__actions
-      .bio--data__actions-download
-      .bio--data__actions-share
+.adinkra--page
+  .container--960
+    %section.bio
+      %img{"src" => @adinkra_symbol.icon_png, :class => "bio--icon"}
 
-%section.translation
+      .bio--data
+        %h1.bio--data__name.adinkra--symbol__name
+          = @adinkra_symbol.name
 
-%section.meaning
+        -# %div.bio--data__actions
+        -#   %span.bio--data__actions-download
+        -#   %span.bio--data__actions-share
 
-%section.themes
+        %h2
+          Translation
+        = @adinkra_symbol.translation
+          
+        -# %section.translation
 
-%section.download
+    -# %section.meaning
+
+    -# %section.themes
+    -#   %h2 Themes
+    -#   = @adinkra_symbol.theme
+
+    -# %section.download
 
 
-%p
-  %strong Name:
-  = @adinkra_symbol.name
-
-%img{"src" => @adinkra_symbol.icon_png}
-
-%p
-  %strong Icon svg:
-  = @adinkra_symbol.icon_svg
-
-%p
-  %strong Translation:
-  = @adinkra_symbol.translation
-
-%p
-  %strong Meaning:
-  = @adinkra_symbol.meaning
-
-%p
-  %strong Origin:
-  = @adinkra_symbol.origin
-
-%p
-  %strong Proverb:
-  = @adinkra_symbol.proverb
-
-%p
-  %strong Theme:
-  = @adinkra_symbol.theme
-
-= link_to('Edit', edit_adinkra_symbol_path(@adinkra_symbol))
-= link_to('Back', adinkra_symbols_path)
+-# = link_to('Edit', edit_adinkra_symbol_path(@adinkra_symbol))
+-# = link_to('Back', adinkra_symbols_path)
