@@ -4,7 +4,7 @@ class AdinkraSymbolsController < ApplicationController
   # GET /adinkra_symbols
   # GET /adinkra_symbols.json
   def index
-    @adinkra_symbols = AdinkraSymbol.all
+    @adinkra_symbols = AdinkraSymbol.all.order("created_at ASC")
   end
 
   # GET /adinkra_symbols/1
