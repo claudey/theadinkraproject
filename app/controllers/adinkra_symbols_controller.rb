@@ -15,9 +15,9 @@ class AdinkraSymbolsController < ApplicationController
   end
 
   # GET /adinkra_symbols/new
-  def new
-    @adinkra_symbol = AdinkraSymbol.new
-  end
+  # def new
+  #   @adinkra_symbol = AdinkraSymbol.new
+  # end
 
   # GET /adinkra_symbols/1/edit
   def edit
@@ -25,19 +25,19 @@ class AdinkraSymbolsController < ApplicationController
 
   # POST /adinkra_symbols
   # POST /adinkra_symbols.json
-  def create
-    @adinkra_symbol = AdinkraSymbol.new(adinkra_symbol_params)
+  # def create
+  #   @adinkra_symbol = AdinkraSymbol.new(adinkra_symbol_params)
 
-    respond_to do |format|
-      if @adinkra_symbol.save
-        format.html { redirect_to @adinkra_symbol, notice: 'Adinkra symbol was successfully created.' }
-        format.json { render :show, status: :created, location: @adinkra_symbol }
-      else
-        format.html { render :new }
-        format.json { render json: @adinkra_symbol.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  #   respond_to do |format|
+  #     if @adinkra_symbol.save
+  #       format.html { redirect_to @adinkra_symbol, notice: 'Adinkra symbol was successfully created.' }
+  #       format.json { render :show, status: :created, location: @adinkra_symbol }
+  #     else
+  #       format.html { render :new }
+  #       format.json { render json: @adinkra_symbol.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # PATCH/PUT /adinkra_symbols/1
   # PATCH/PUT /adinkra_symbols/1.json
@@ -55,13 +55,13 @@ class AdinkraSymbolsController < ApplicationController
 
   # DELETE /adinkra_symbols/1
   # DELETE /adinkra_symbols/1.json
-  def destroy
-    @adinkra_symbol.destroy
-    respond_to do |format|
-      format.html { redirect_to adinkra_symbols_url, notice: 'Adinkra symbol was successfully destroyed.' }
-      format.json { head :no_content }
-    end
-  end
+  # def destroy
+  #   @adinkra_symbol.destroy
+  #   respond_to do |format|
+  #     format.html { redirect_to adinkra_symbols_url, notice: 'Adinkra symbol was successfully destroyed.' }
+  #     format.json { head :no_content }
+  #   end
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
