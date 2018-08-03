@@ -8,7 +8,7 @@
   - @adinkra_symbols.each do |adinkra_symbol|
     %a{:href => url_for(adinkra_symbol), :class => "adinkra__card"}
       %div{:class => "adinkra__image--holder"}
-        %img{:src => adinkra_symbol.icon_png, "class" => "adinkra__image"}
+        %img{:src => adinkra_symbol.icon_svg, "class" => "adinkra__image"}
       %div{:class => "adinkra__title--holder"}
         %p{:class => "adinkra__title"}
           = adinkra_symbol.name

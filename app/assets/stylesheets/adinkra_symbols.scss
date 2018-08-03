@@ -12,6 +12,8 @@ main {
 
 .adinkra__details--page {
     background-image: linear-gradient(0deg, #FFFFFF 0%, #EFF8FC 100%);
+    padding: 50px 0 150px;
+    margin-bottom: -40px;
 }
 
 .adinkra__card {
@@ -51,28 +53,31 @@ main {
 
 .bio {
     display: flex;
-    padding-top: 40px;
+    padding: 40px 4% 0;
 }
 
 .bio--icon {
     float: left;
     width: auto;
-    height: 500px;
+    height: 400px;
 }
 
 .bio--data {
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .bio--data__name {
     font-size: 3em;
     line-height: 1.2;
     font-weight: 400;
+    margin: 30px 0 20px;
 }
 
 .translation--header {
     color: #ea7f09;
     margin: 30px 0 15px;
+    padding-top: 20px;
+    border-top: 1px solid #3332;
 }
 
 .translation {}
@@ -108,6 +113,18 @@ main {
         max-height: 280px;
         margin: 1.2%;
     }
+    .bio--icon {
+        height: 300px;
+    }
+    .bio--data {
+        margin-left: 40px;
+    }
+    .bio--data__name {
+        font-size: 2em;
+        line-height: 1.2;
+        font-weight: 400;
+        margin: 30px 0 20px;
+    }
 }
 
 @media (max-width: 780px) {
@@ -131,6 +148,18 @@ main {
         width: 220px;
         height: 285px;
         margin: 1.2% 3% 20px;
+    }
+    .bio {
+        display: inline-block;
+        padding: 40px 5% 0;
+    }
+    .bio--icon {
+        float: unset;
+        display: block;
+        margin: 0 auto;
+    }
+    .bio--data {
+        margin: 0;
     }
 }
 
