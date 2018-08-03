@@ -19,9 +19,11 @@ footer {
     position: relative;
 }
 
-@media( max-width: 450px) {
+@media( max-width: 480px) {
     .backstory {
         margin: 0;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
