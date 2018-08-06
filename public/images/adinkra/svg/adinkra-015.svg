@@ -5,76 +5,65 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#000000" stroke-width="20" fill-rule="nonzero" x="10" y="10" width="480" height="480"></rect>
-        <g id="all-this" transform="translate(249.144195, 183.418600) rotate(38.000000) translate(-249.144195, -183.418600) translate(-163.355805, -215.081400)" fill-rule="nonzero" stroke="#000000">
-            <g id="block" transform="translate(0.000000, 334.000000)">
-                <g id="atom" transform="translate(172.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+        <g id="015-ani-bere" transform="translate(-185.000000, -152.000000)" fill-rule="nonzero" stroke="#000000">
+            <rect id="Rectangle" stroke-width="20" x="195" y="162" width="480" height="480"></rect>
+            <g id="all-this" transform="translate(434.793506, 435.450255) rotate(38.000000) translate(-434.793506, -435.450255) translate(125.793506, 125.450255)">
+                <g id="block" transform="translate(-0.000000, 167.000000)">
+                    <g id="atom" transform="translate(0.000000, -0.000000)">
+                        <path d="M46.4154354,5 L5,37.2663374 L5,132 L132,132 L132,5 L46.4154354,5 Z" id="big" stroke-width="10"></path>
+                        <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                    </g>
+                    <g id="atom-copy" transform="translate(172.000000, -0.000000)">
+                        <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                        <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                    </g>
+                    <g id="atom-copy-2" transform="translate(344.000000, 0.000000)">
+                        <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                        <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                    </g>
+                    <g id="atom-copy-4" transform="translate(516.000000, 17.000000)">
+                        <path d="M82.9076103,115.026182 L5,15.3094374 L5,115.001579 L82.9076103,115.026182 Z" id="big" stroke-width="10"></path>
+                        <path d="M56.0082263,79 L42,61.0776993 L42,79 L56.0082263,79 Z" id="small" stroke-width="8"></path>
+                    </g>
                 </g>
-                <g id="atom-copy-3">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                <g id="block" transform="translate(20.000000, 330.000000)">
+                    <g id="atom" transform="translate(-0.000000, 0.000000)">
+                        <path d="M10.5615307,5 L109.764263,132 L112,132 L112,5 L10.5615307,5 Z" id="big" stroke-width="10"></path>
+                        <path d="M38.2074949,42 L76,90.388922 L76,42 L38.2074949,42 Z M80,98.7745819 L78.4309942,100 L78.4309942,96 L80,96 L80,98.7745819 Z" id="small" stroke-width="8"></path>
+                    </g>
+                    <g id="atom-copy" transform="translate(152.000000, 0.000000)">
+                        <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                        <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                    </g>
+                    <g id="atom-copy-2" transform="translate(324.000000, 0.000000)">
+                        <path d="M5,5 L5,132 L96.1559059,132 L132,104.010176 L132,5 L5,5 Z" id="big" stroke-width="10"></path>
+                        <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                    </g>
+                    <g id="atom-copy-4" transform="translate(496.000000, 0.000000)" stroke-width="10">
+                        <path d="M5,5 L5,68.8698983 L86.7310164,5 L5,5 Z" id="big"></path>
+                    </g>
                 </g>
-                <g id="atom-copy" transform="translate(344.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                <g id="block" transform="translate(172.000000, 493.000000)">
+                    <g id="atom-copy" transform="translate(0.000000, 0.000000)">
+                        <path d="M5,5 L5,29.4073973 L75.4543448,119.584846 L132,75.3897609 L132,5 L5,5 Z" id="big" stroke-width="10"></path>
+                        <path d="M42,42 L42,78.3263062 L55.7814782,96 L96,96 L96,42 L42,42 Z" id="small" stroke-width="8"></path>
+                    </g>
+                    <g id="atom-copy" transform="translate(172.000000, 0.000000)" stroke-width="10">
+                        <path d="M5,5 L5,40.215148 L50.0599496,5 L5,5 Z" id="big"></path>
+                    </g>
                 </g>
-                <g id="atom-copy-2" transform="translate(516.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-                <g id="atom-copy-4" transform="translate(688.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-            </g>
-            <g id="block" transform="translate(0.000000, 497.000000)">
-                <g id="atom" transform="translate(172.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-                <g id="atom-copy" transform="translate(344.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-                <g id="atom-copy-2" transform="translate(516.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-                <g id="atom-copy-4" transform="translate(688.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-            </g>
-            <g id="block" transform="translate(172.000000, 660.000000)">
-                <g id="atom" transform="translate(0.000000, 0.000000)" stroke-width="10">
-                    <rect id="big" x="5" y="5" width="127" height="127"></rect>
-                </g>
-                <g id="atom-copy" transform="translate(172.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-                <g id="atom-copy" transform="translate(344.000000, 0.000000)" stroke-width="10">
-                    <rect id="big" x="5" y="5" width="127" height="127"></rect>
-                </g>
-            </g>
-            <g id="block" transform="translate(172.000000, 167.000000)">
-                <g id="atom" stroke-width="10">
-                    <rect id="big" x="5" y="5" width="127" height="127"></rect>
-                </g>
-                <g id="atom-copy" transform="translate(172.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-                <g id="atom-copy-2" transform="translate(344.000000, 0.000000)">
-                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
-                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
-                </g>
-            </g>
-            <g id="block" transform="translate(344.000000, 0.000000)" stroke-width="10">
-                <g id="atom-copy">
-                    <rect id="big" x="5" y="5" width="127" height="127"></rect>
+                <g id="block" transform="translate(82.000000, 0.000000)">
+                    <g id="atom" transform="translate(0.000000, 94.000000)" stroke-width="10">
+                        <path d="M50,11.0620814 L15.4550957,38 L50,38 L50,11.0620814 Z" id="big"></path>
+                    </g>
+                    <g id="atom-copy" transform="translate(90.000000, 0.000000)">
+                        <path d="M88.0905781,5 L5,69.9325797 L5,132 L132,132 L132,5 L88.0905781,5 Z" id="big" stroke-width="10"></path>
+                        <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                    </g>
+                    <g id="atom-copy-2" transform="translate(262.000000, 0.000000)">
+                        <path d="M5,5 L5,132 L124.424527,132 L25.2209063,5 L5,5 Z" id="big" stroke-width="10"></path>
+                        <path d="M42,42 L42,96 L96,96 L96,93.9659478 L55.3912515,42 L42,42 Z" id="small" stroke-width="8"></path>
+                    </g>
                 </g>
             </g>
         </g>
