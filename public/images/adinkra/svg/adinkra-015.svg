@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#000000" stroke-width="20" fill-rule="nonzero" x="10" y="10" width="480" height="480"></rect>
+        <g id="all-this" transform="translate(249.144195, 183.418600) rotate(38.000000) translate(-249.144195, -183.418600) translate(-163.355805, -215.081400)" fill-rule="nonzero" stroke="#000000">
+            <g id="block" transform="translate(0.000000, 334.000000)">
+                <g id="atom" transform="translate(172.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy-3">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy" transform="translate(344.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy-2" transform="translate(516.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy-4" transform="translate(688.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+            </g>
+            <g id="block" transform="translate(0.000000, 497.000000)">
+                <g id="atom" transform="translate(172.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy" transform="translate(344.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy-2" transform="translate(516.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy-4" transform="translate(688.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+            </g>
+            <g id="block" transform="translate(172.000000, 660.000000)">
+                <g id="atom" transform="translate(0.000000, 0.000000)" stroke-width="10">
+                    <rect id="big" x="5" y="5" width="127" height="127"></rect>
+                </g>
+                <g id="atom-copy" transform="translate(172.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy" transform="translate(344.000000, 0.000000)" stroke-width="10">
+                    <rect id="big" x="5" y="5" width="127" height="127"></rect>
+                </g>
+            </g>
+            <g id="block" transform="translate(172.000000, 167.000000)">
+                <g id="atom" stroke-width="10">
+                    <rect id="big" x="5" y="5" width="127" height="127"></rect>
+                </g>
+                <g id="atom-copy" transform="translate(172.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+                <g id="atom-copy-2" transform="translate(344.000000, 0.000000)">
+                    <rect id="big" stroke-width="10" x="5" y="5" width="127" height="127"></rect>
+                    <rect id="small" stroke-width="8" x="42" y="42" width="54" height="54"></rect>
+                </g>
+            </g>
+            <g id="block" transform="translate(344.000000, 0.000000)" stroke-width="10">
+                <g id="atom-copy">
+                    <rect id="big" x="5" y="5" width="127" height="127"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
