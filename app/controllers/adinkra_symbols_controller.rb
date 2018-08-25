@@ -11,7 +11,9 @@ class AdinkraSymbolsController < ApplicationController
   # GET /adinkra_symbols/1.json
   def show
     # @adinkra_symbols = AdinkraSymbol.all.order("created_at DESC")
-    @adinkra_symbols = AdinkraSymbol.find(params[:id])
+    @adinkra_symbols = AdinkraSymbol.find_by_short_url(params[:short_url])
+
+    @short_url = @adinkra_symbols.short_url
   end
 
   # GET /adinkra_symbols/new
@@ -66,7 +68,7 @@ class AdinkraSymbolsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_adinkra_symbol
-      @adinkra_symbol = AdinkraSymbol.find(params[:id])
+      @adinkra_symbol = AdinkraSymbol.find_by_short_url(params[:short_url])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
