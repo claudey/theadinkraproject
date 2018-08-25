@@ -1,18 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
-]>
-<svg version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="510px" height="510px" viewBox="-28.655 -27.653 510 510" enable-background="new -28.655 -27.653 510 510"
-	 xml:space="preserve">
-<defs>
-</defs>
-<circle fill="none" stroke="#000000" stroke-width="40" cx="227.343" cy="227.347" r="56.538"/>
-<path fill="none" stroke="#000000" stroke-width="40" d="M357.112,227.347c0,71.668-58.101,129.769-129.77,129.769
-	c-71.666,0-129.767-58.101-129.767-129.769c0-71.667,58.101-129.769,129.767-129.769C299.012,97.578,357.112,155.68,357.112,227.347
-	z"/>
-<path fill="none" stroke="#000000" stroke-width="40" d="M434.689,227.347c0,114.512-92.833,207.347-207.347,207.347
-	C112.831,434.693,20,341.858,20,227.347C20,112.836,112.831,20,227.343,20C341.856,20,434.689,112.836,434.689,227.347z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="adinkra-003" transform="translate(20.000000, 20.000000)" stroke="#000000" stroke-width="40">
+            <circle id="Oval" cx="229.825976" cy="229.83041" r="62.6686265"></circle>
+            <path d="M373.666313,229.83041 C373.666313,309.269639 309.265205,373.670747 229.824867,373.670747 C150.387855,373.670747 85.986747,309.269639 85.986747,229.83041 C85.986747,150.392289 150.387855,85.9900723 229.824867,85.9900723 C309.266313,85.9900723 373.666313,150.392289 373.666313,229.83041 Z" id="Shape"></path>
+            <path d="M459.655277,229.83041 C459.655277,356.759373 356.756048,459.660819 229.824867,459.660819 C102.897012,459.659711 0,356.758265 0,229.83041 C0,102.902554 102.897012,0 229.825976,0 C356.756048,0 459.655277,102.902554 459.655277,229.83041 Z" id="Shape"></path>
+        </g>
+    </g>
 </svg>
