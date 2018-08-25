@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="250" cy="250" r="235"></circle>
+        <g id="Group" transform="translate(100.000000, 100.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#000000" x="70" y="70" width="160" height="160"></rect>
+            <rect id="Rectangle-2" stroke="#000000" stroke-width="10" x="0" y="114" width="75" height="75"></rect>
+            <rect id="Rectangle-2-Copy" stroke="#000000" stroke-width="10" x="225" y="114" width="75" height="75"></rect>
+            <rect id="Rectangle-2-Copy-2" stroke="#000000" stroke-width="10" x="113" y="0" width="75" height="75"></rect>
+            <rect id="Rectangle-2-Copy-3" stroke="#000000" stroke-width="10" x="113" y="225" width="75" height="75"></rect>
+        </g>
+        <g id="Group-2" transform="translate(23.000000, 23.000000)" fill-rule="nonzero" stroke="#000000" stroke-linecap="square" stroke-width="10">
+            <path d="M227,0 L227,75" id="Line"></path>
+            <path d="M227,379 L227,454" id="Line-Copy"></path>
+            <path d="M0,227 L75,227" id="Line-Copy-2"></path>
+            <path d="M379,227 L454,227" id="Line-Copy-3"></path>
+        </g>
+    </g>
+</svg>

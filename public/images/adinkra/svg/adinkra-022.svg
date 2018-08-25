@@ -5,19 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="250" cy="250" r="235"></circle>
-        <g id="Group" transform="translate(100.000000, 100.000000)" fill-rule="nonzero">
-            <rect id="Rectangle" fill="#000000" x="70" y="70" width="160" height="160"></rect>
-            <rect id="Rectangle-2" stroke="#000000" stroke-width="10" x="0" y="114" width="75" height="75"></rect>
-            <rect id="Rectangle-2-Copy" stroke="#000000" stroke-width="10" x="225" y="114" width="75" height="75"></rect>
-            <rect id="Rectangle-2-Copy-2" stroke="#000000" stroke-width="10" x="113" y="0" width="75" height="75"></rect>
-            <rect id="Rectangle-2-Copy-3" stroke="#000000" stroke-width="10" x="113" y="225" width="75" height="75"></rect>
-        </g>
-        <g id="Group-2" transform="translate(23.000000, 23.000000)" fill-rule="nonzero" stroke="#000000" stroke-linecap="square" stroke-width="10">
-            <path d="M227,0 L227,75" id="Line"></path>
-            <path d="M227,379 L227,454" id="Line-Copy"></path>
-            <path d="M0,227 L75,227" id="Line-Copy-2"></path>
-            <path d="M379,227 L454,227" id="Line-Copy-3"></path>
+        <g id="Group-6" transform="translate(100.000000, -1.000000)" fill="#231F20">
+            <path d="M267.410836,21.8099297 C295.133036,30.3841037 307.613247,51.454042 293.297776,81.0603826 C269.563823,130.15025 246.440882,179.566732 221.249386,227.90561 C212.139742,245.382794 211.937553,258.747307 221.449353,276.24671 C243.854632,317.477844 265.428934,359.35554 284.061487,402.386384 C307.386617,456.25326 295.55519,477.152115 237.357901,491.238734 C174.301395,506.502941 111.071583,502.761322 48.7971731,487.657089 C1.82696376,476.263369 -10.677688,451.949509 8.91915431,407.914383 C27.9649743,365.112391 50.0547483,323.425774 73.9864477,283.136711 C86.9288067,261.34911 86.7332826,243.64974 75.3262318,222.366503 C53.6652776,181.948571 31.0089283,141.752825 13.5206351,99.4974118 C-9.35123508,44.2285396 7.68824154,17.355092 67.1342185,8.82535528 C91.395518,5.34572064 95.1293687,1 147.767664,1 C200.405959,1 231.343315,10.6583932 267.410836,21.8099297 Z" id="Fill-4"></path>
         </g>
     </g>
 </svg>

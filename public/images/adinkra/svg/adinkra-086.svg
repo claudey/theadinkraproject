@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
-]>
-<svg version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="510px" height="510px" viewBox="-106.424 -10.936 510 510"
-	 enable-background="new -106.424 -10.936 510 510" xml:space="preserve">
-<defs>
-</defs>
-<polygon fill="none" stroke="#000000" stroke-width="40" points="142.277,42.327 33.416,245.378 142.277,245.378 251.139,245.378 
-	"/>
-<circle fill="none" stroke="#000000" stroke-width="40" cx="142.277" cy="358.986" r="111.702"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6" fill="#000000">
+            <polygon id="Fill-2" points="108.932834 109 108.932834 219.985072 0 219.985072 0 500 167.64005 500 167.64005 441.17985 59.3069245 441.17985 59.3069245 278.546767 206 278.546767 206 218.714333 168.11125 218.714333 168.11125 109"></polygon>
+            <polygon id="Fill-3" points="331.53163 0 331.53163 58.4637929 440.460891 58.4637929 440.460891 220.264433 293 220.264433 293 279.930566 330.413524 279.930566 330.413524 389 390.55469 389 390.55469 279.050281 500 279.050281 500 0"></polygon>
+            <polygon id="Fill-4" points="0 0 0 168.153966 58.7011761 168.153966 58.7011761 59.4065319 220.45696 59.4065319 220.45696 207 279.630666 207 279.630666 168.497356 389 168.497356 389 109.970762 279.244051 109.970762 279.244051 0"></polygon>
+            <polygon id="Fill-5" points="220.407591 293 220.407591 330.782984 111 330.782984 111 390.521816 221.266027 390.521816 221.266027 500 500 500 500 331.965718 440.746497 331.965718 440.746497 440.390193 279.639634 440.390193 279.639634 293"></polygon>
+        </g>
+    </g>
 </svg>
