@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180119000006) do
+ActiveRecord::Schema.define(version: 20180825105902) do
 
   create_table "adinkra_symbols", force: :cascade do |t|
     t.string "name"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20180119000006) do
     t.string "theme"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "short_url"
   end
 
 end
