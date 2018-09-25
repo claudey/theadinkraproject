@@ -1,6 +1,8 @@
 %nav
     %div{:class => "container--960 main__nav"}
-        =link_to('Adinkra Project', root_path, :class => "main__nav--logo")
+        %a{:href => root_path, :class => "main__nav--logo"}
+            %img{:alt => "", :src => "http://cdn.interacht.com/adinkraproject/adinkra-project-nav-logo.svg", :class => "main__nav--image"}/
+
         %div{:class => "main__nav--links"}
             =link_to('Symbols', adinkra_symbols_path, :class => "main__nav--item")
             =link_to('About', about_path, :class => "main__nav--item")

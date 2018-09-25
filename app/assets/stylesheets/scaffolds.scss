@@ -36,11 +36,12 @@ h1 {
 a {
     color: rgb(47, 35, 224);
     text-decoration: none;
+    transition: all 0.15s;
     &:visited {
         color: rgb(75, 66, 209);
     }
     &:hover {
-        color: rgb(47, 35, 224);
+        color: #FF3700;
     }
 }
 

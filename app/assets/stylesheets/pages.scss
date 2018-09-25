@@ -67,15 +67,46 @@ main {
 
 blockquote {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    // margin: 1em 6em 1em 3em;
-    // padding: 0.3em 0 0 2em;
     font-style: italic;
-    // background: url(../images/quotes.svg) no-repeat;
 }
 
 .adinkra__stamps {
     // width: 58%;
     display: none;
+}
+
+.home__cta {
+    padding: 80px 0 60px;
+}
+
+.view--symbols {
+    display: block;
+    font-size: 1.5em;
+    border: 1px #4b42d1 solid;
+    border-radius: 3px;
+    width: 8em;
+    left: calc(50% - 4.5em);
+    position: relative;
+    padding: 10px;
+    &:hover {
+        color: #FF3700;
+        border: 1px #FF3700 solid;
+    }
+}
+
+.page--title {
+    margin: 0;
+    padding: 40px 0 30px;
+    text-align: center;
+}
+
+.project--logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.about--page {
+    margin-bottom: 10vh;
 }
 
 @media (max-width: 960px) {
@@ -113,30 +144,4 @@ blockquote {
         width: calc(100% - 60px);
         padding: 0 30px 30px;
     }
-}
-
-.home__cta {
-    padding: 80px 0 60px;
-}
-
-.view--symbols {
-    display: block;
-    font-size: 1.5em;
-    border: 1px #4b42d1 solid;
-    border-radius: 3px;
-    width: 8em;
-    left: calc(50% - 4.5em);
-    position: relative;
-    padding: 10px;
-}
-
-.page--title {
-    margin: 0;
-    padding: 40px 0 30px;
-    text-align: center;
-}
-
-.project--logo {
-    max-width: 100%;
-    height: auto;
 }

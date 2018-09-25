@@ -1,11 +1,8 @@
 nav {
     background: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
-    height: 55px;
+    height: 60px;
     margin-bottom: 4px;
-    // position: absolute;
-    // z-index: 2;
-    // width: 100%;
 }
 
 .main__nav {
@@ -16,7 +13,12 @@ nav {
 
 .main__nav--logo {
     display: flex;
-    padding-top: 12.5px;
+    padding-top: 5px;
+}
+
+.main__nav--image {
+    width: 98%;
+    height: auto;
 }
 
 .main__nav--links {
