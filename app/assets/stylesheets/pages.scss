@@ -65,6 +65,14 @@ main {
     padding: 1.5em 60px 0 0;
 }
 
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    // margin: 1em 6em 1em 3em;
+    // padding: 0.3em 0 0 2em;
+    font-style: italic;
+    // background: url(../images/quotes.svg) no-repeat;
+}
+
 .adinkra__stamps {
     // width: 58%;
     display: none;
@@ -73,6 +81,9 @@ main {
 @media (max-width: 960px) {
     .home__content--text {
         max-width: 45%;
+    }
+    .about--page {
+        padding: 2.5%;
     }
 }
 
@@ -122,4 +133,10 @@ main {
 .page--title {
     margin: 0;
     padding: 40px 0 30px;
+    text-align: center;
+}
+
+.project--logo {
+    max-width: 100%;
+    height: auto;
 }

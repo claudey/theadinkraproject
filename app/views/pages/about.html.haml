@@ -1,2 +1,26 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
+- content_for :title do
+    = "About | #{t('app.name')}"
+
+.container--960.about--page
+    %h1{:class => "page--title"}
+        About the Project
+
+    %img{:class => "project--logo", :alt => "adinkra project logo", :src => "http://cdn.interacht.com/adinkraproject/adinkra-project-logo-wordmark.svg"}
+    
+
+    %p The Adinkra Project is a project by Claude Ayitey, to catalogue Adinkra symbols.
+    %p
+        %blockquote
+            Adinkra are visual symbols that represent concepts or aphorisms. Adinkra are used extensively in fabrics and pottery among the Ashantis of Ashanti Kingdom and Baoulés of Cote d’Ivoire. They are incorporated into walls and other architectural features. Adinkra symbols appear on some traditional Akan goldweights. The symbols are also carved on stools for domestic and ritual use. Tourism has led to new departures in the use of the symbols in such items as T-shirts and jewellery.
+
+            %p
+                =link_to('~ Wikipedia', "https://en.wikipedia.org/wiki/Adinkra_symbols")
+
+
+    %p The Adinkra Project provides a complete catalogue of Adinkra symbols, presented in a consistent and well-designed layout, for educational, aesthetic, and cultural usefulness.
+
+    %p As a Ghanaian, I understand the role culture and tradition play in our society. They are literally found everywhere, even in hotel artefacts; coupled with proverbs and folktales. This project was meant to present cultural symbols that have been a part of our culture for several centuries, into a modern, beautiful representation. I had the idea in July 2017, and launched the first version  last September 2018. Truly, this is one of the projects that took quite a time to compile even a minimum viable version of 89 symbols — there are more to be added.
+
+    %p I wrote a detailed post about the journey through this project, and some considerations I made to arrive at some of the decisions. Read them on my website.
+
+    %p I’m delighted to present the Adinkra Project website to you.
